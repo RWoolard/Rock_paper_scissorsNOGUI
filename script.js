@@ -1,5 +1,5 @@
 // Get players choice input and print choice to console.
-let getPlayerChoice = prompt("Rock, Paper or Scissors?").toLowerCase();
+let getPlayerChoice = prompt("Rock, Paper or Scissors?").toLowerCase(); 
 console.log("You chose " + getPlayerChoice);
 
 // Get computers random choice with each turn.
@@ -13,8 +13,7 @@ function getComputerChoice() {
 
 // play 1 round of the game comparing the choices using logical operators to declare a winner.
 function playRound(playerSelection, computerSelection) {
-       playerSelection.toLowerCase();
-       computerSelection.toLowerCase();
+       
         if (playerSelection == "rock" && computerSelection == "paper") {
             return ("You lose! Paper beats Rock");
         } else if (playerSelection == "scissors" && computerSelection == "rock") {
